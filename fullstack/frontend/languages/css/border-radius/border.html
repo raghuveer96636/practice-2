@@ -6,18 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    <style>
-        #root{
-            width: 200px;
-            height: 200px;
-            background-color:red;
-            background-image: url(./img2.jfif);
-            border-radius: 60%;
-            float: left;
-            clip-path: polygon(50% 0%, 100% 29%, 88% 100%, 9% 100%, 0 26%);
-        }
-    </style>
-    <div id="root"></div>
+    <h2>Definition and Usage</h2>
+    <p>The <code class="w3-codespan">border-radius</code> property defines the radius of the 
+        element's corners.</p>
     
+    <p><strong>Four values - border-radius: 15px 50px 30px 5px; </strong>(first value applies to top-left 
+        corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner):</p>
+      <link rel="stylesheet" href="https://www.w3schools.com/">
+        <p><strong>Three values - border-radius: 15px 50px 30px;</strong> (first value applies to top-left 
+            corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner):</p>
+            <p id="rcorners5" class="w3-theme"></p>
+            <p><strong>Two values - border-radius: 15px 50px; </strong>(first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners):</p>
+            <p id="rcorners6" class="w3-theme"></p>
+            <p><strong>One value - border-radius: 15px; </strong>(the value applies to all four corners, which are rounded equally:</p>
+            <p id="rcorners7" class="w3-theme"></p>
+    <center>
+        <style>
+            #root{
+                width: 200px;
+                height: 200px;
+                background-color:red;
+                background-image: url(./img2.jfif);
+                border-radius: 60%;
+                float: left;
+                clip-path: polygon(50% 0%, 100% 29%, 88% 100%, 9% 100%, 0 26%);
+            }
+        </style>
+        <div id="root"></div>
+         
+    </center>
 </body>
 </html>
