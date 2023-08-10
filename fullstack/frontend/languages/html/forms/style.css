@@ -1,0 +1,10 @@
+.raghu{
+    background-color: blue;
+    height: 50vh;
+    width: 50%;
+}
+@media only scree(max-width:768px){
+.raghu{
+    height:50vh;
+}
+}
